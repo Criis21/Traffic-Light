@@ -8,13 +8,29 @@
 
 <h1 align="center">Welcome to 4Geeks Academy</h1>
 
-<h3 align="center">&lt;Simple Counter with React&gt;</h3>
+
+<h3 align="center">&lt;Traffic Light with React&gt;</h3>
+
+<p>Traffic light that changes color every 3 seconds, for that normally I will make a variable color and we will set it to a predetermined color  [Yellow, red, green].</p>
+
 
 ## Content
 
 1. Language
 2. Project instructions
 
+## Instructions
+
+<p>The light has to glow when clicked:</p>
+
+<ul>
+    <li>The whole purpose of the component is displaying a traffic light with red, yellow and green lights.</li>
+    <li>When any light is clicked (selected) it has to glow, but the other lights have to stop glowing.</li>
+    <li>l componente debe tener un estado que almacene el color actual que debe brillar, por eso debes usar el hook useState.
+    const [ color, setColor] = useState("red");</li>
+    <li>Use the ReactDOM.render to render the component into the DOM like this:
+    ReactDOM.render(<TrafficLight />, document.querySelector('#app'));</li>
+</ul>
 
 ## Language
 
@@ -27,10 +43,3 @@
     <li>React</li>
 </ol>
 
-## Instructions
-
-<p>Create an application that is a counter.</p>
-<ul>
-  <li>The whole purpose of the component is to display how many seconds have passed since the website finished loading </li>
-  <li>Use the setInterval() function to re-render de component on every second.</li>
-</ul>
